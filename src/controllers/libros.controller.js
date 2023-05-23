@@ -1,6 +1,6 @@
 const getLibro = (req,res)=>{
     //código 500 --> internal server error
-    let respuesta = {error: true, codigo: 500, result : []}
+    let respuesta = "Probando integración contínua"
 
     res.send(respuesta)
 }
